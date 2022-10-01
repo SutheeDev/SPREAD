@@ -9,4 +9,15 @@
   src: url(./ASSETS/FONTS/GT-Flexa-Trial-VF.ttf) format("truetype");
   font-weight: 100 900;
   font-stretch: 50% 200%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Flexa, sans-serif;
+  font-size: 20vw;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
