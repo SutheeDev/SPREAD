@@ -22,4 +22,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    .container {
+        width: 90vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .row {
+            height: 17vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
