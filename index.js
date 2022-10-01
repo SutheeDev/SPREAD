@@ -17,3 +17,17 @@ for (i = 0; i < 10; i++)
     const container = document.querySelector('.container');
     container.appendChild(div);
 }
+
+gsap.to('.letter', {
+    fontStretch: '125%',
+    fontWeight: '600',
+    letterSpacing: '-3.5vw',
+    stagger: {
+        each: 0.03,
+        from: 'center',
+        grid: 'auto',
+    },
+    repeat: -1,
+    yoyo: true,
+    ease: 'power2.inOut',
+}) 
