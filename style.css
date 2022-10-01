@@ -16,6 +16,8 @@ body {
   overflow: hidden;
   font-family: Flexa, sans-serif;
   font-size: 20vw;
+  color: #FBFBF2;
+  background: linear-gradient(0deg, rgb(4, 4, 32), rgb(55, 47, 74));
   text-transform: uppercase;
   display: flex;
   justify-content: center;
