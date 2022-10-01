@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: Flexa;
     src: url(./ASSETS/FONTS/GT-Flexa-Trial-VF.ttf)format('truetype');
@@ -22,17 +23,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
     .container {
         width: 90vw;
         height: 90vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
         .row {
             height: 17vw;
             display: flex;
             justify-content: center;
             align-items: center;
+
             .letter {
                 font-weight: 100;
                 font-stretch: 0%;
@@ -40,6 +44,14 @@ body {
                 text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
                 text-shadow: 2px 3px 13px rgba(0, 0, 0, 0.62);
                 position: relative;
+
+                // put the letter on top of each others from left to right
+                @for $i from 1 through 6 {
+                    &:nth-child(#{$i}) {
+                        z-index: -($i);
+                    }
+                }
+                transform: translateX(-1.3vw);
             }
         }
     }

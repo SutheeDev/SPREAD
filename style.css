@@ -43,4 +43,23 @@ body .container .row .letter {
   text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
   text-shadow: 2px 3px 13px rgba(0, 0, 0, 0.62);
   position: relative;
+  transform: translateX(-1.3vw);
+}
+body .container .row .letter:nth-child(1) {
+  z-index: -1;
+}
+body .container .row .letter:nth-child(2) {
+  z-index: -2;
+}
+body .container .row .letter:nth-child(3) {
+  z-index: -3;
+}
+body .container .row .letter:nth-child(4) {
+  z-index: -4;
+}
+body .container .row .letter:nth-child(5) {
+  z-index: -5;
+}
+body .container .row .letter:nth-child(6) {
+  z-index: -6;
 }/*# sourceMappingURL=style.css.map */
