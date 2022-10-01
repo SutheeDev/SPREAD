@@ -9,7 +9,5 @@ wordArray.forEach((letter) => {
     div.innerHTML += htmlEl;
 });
 
-console.log(div);
-
 const container = document.querySelector('.container');
 container.appendChild(div);
