@@ -22,11 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
     gsap.to('.letter', {
         fontStretch: '125%',
         fontWeight: '600',
-        letterSpacing: '-3.5vw',
+        // letterSpacing: '-3.5vw',
+        letterSpacing: '0vw',
         stagger: {
-            each: 0.03,
+            // each: 0.03,
+            amount: 0.4,
             from: 'center',
-            grid: 'auto',
+            // grid: 'auto',
         },
         repeat: -1,
         yoyo: true,

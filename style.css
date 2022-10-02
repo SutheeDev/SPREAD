@@ -40,8 +40,6 @@ body .container .row .letter {
   font-weight: 100;
   font-stretch: 0%;
   letter-spacing: -2.5vw;
-  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
-  text-shadow: 2px 3px 13px rgba(0, 0, 0, 0.62);
   position: relative;
   transform: translateX(-1.3vw);
 }
